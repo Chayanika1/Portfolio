@@ -1,21 +1,7 @@
-.intro{
-    display: flex;
-    height: 77vh;
-    margin-top: 6rem;
-}
-.i-left{
-    display: flex;
-    position: relative;
-    flex: 1;
-    gap:2rem;
-    flex-direction: column;
 
-}
-.i-right{
-    flex:1;
-    flex-direction: column;
 
-}
+
+
 .i-name{
     display: flex;
     flex-direction: column;
@@ -36,8 +22,8 @@
     font-size: 14px;
 }
 .i-button{
-    width:8rem;
-    height: 3rem;
+    
+    
     border-radius: 34px;
     border: none;
     color: white;
@@ -54,4 +40,48 @@
     color: orangered;
     border: 1px solid orangered;
 
+}
+ 
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap:0rem;
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+
+}
+.i-right{
+    flex:1;
+    position: relative;
+
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+
+}
+.girl{
+    height:400px;
+    
+}
+.i-right>:nth-child(2){
+   transform: scale(0.69);
+   left: 15%;
+   top:25%;
+}
+.i-right>:nth-child(3){
+    transform: scale(0.67);
+    left: -3rem;
+    margin-top: 16%
+ }
+.i-right>:nth-child(1){
+   transform: scale(1.4);
+   left:130px;
+   
+   
+   
 }
