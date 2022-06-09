@@ -6,7 +6,7 @@ import './Services.css'
 const Services = () => {
     return (
         <div className='container'>
-            <h2 className='text-center pt-4'>My Services</h2>
+            <h3 className='text-center pt-4'>My Services</h3>
             <p className='text-center' style={{color:'red'}}>- What I Provide -</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
 

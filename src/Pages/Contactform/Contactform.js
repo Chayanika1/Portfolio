@@ -40,14 +40,14 @@ const Contactform = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary mb-5">Submit</button>
             </form>
           </div>
 
 
 
-          <div class="col-lg-6 col-sm-12 col-md-12 position-relative mt-4">
-            <img src={Mail}class=" position-absolute top-50 start-50 translate-middle img-fluid" />
+          <div class="col-lg-6 col-sm-12 col-md-12  mt-4">
+            <img src={Mail}class=" img-fluid" />
           </div>
         </div>
       </div>
