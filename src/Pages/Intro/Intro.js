@@ -10,27 +10,33 @@ import Floatingdiv from '../FloatingDiv/Floatingdiv';
 import Crown from '../../Images/crown.png';
 import thumbup from '../../Images/thumbup.png'
 import Contactform from '../Contactform/Contactform';
+import Services from '../Services/Services';
+import Projects from '../Projects/Projects';
+import my from '../../Images/my-bg.png'
 
 const Intro = () => {
     return (
-        <div className='intro'>
+        <div className='container'>
+            
             <div className='row'>
                 <div className='col-lg-6 col-sm-12 col-md-12'>
                     <div className='i-left'>
                         <div className='i-name'>
-                            <span> Hi! I am  </span>
-                            <span>Chayanika Chakraborty</span>
-                            <span>Junior Frontend developer with web designing and development</span>
+                            <span className='hi'> Hi! I am  </span><br/>
+                            <span className='name'>Chayanika Chakraborty</span><br/>
+                            <span className='bio'>Junior Frontend developer with web designing and development</span>
 
                         </div>
-                        <button className='i-button'>
-                            <a  style={{ textDecoration:'none'}}href="https://drive.google.com/file/d/1Enu50Eg-GIukwuVNZL-sJq3dVzHsdDmh/view?usp=sharing">Download Cv</a>
+                        <button className='i-button mt-4'>
+                            <a  style={{ textDecoration:'none'}}href="https://drive.google.com/file/d/1Enu50Eg-GIukwuVNZL-sJq3dVzHsdDmh/view?usp=sharing">Download Resume</a>
                         </button>
                         <div className='i-icons'>
-                            <img src={Github} />
+                            <a href="https://github.com/Chayanika1"> <img src={Github} /></a>
+                           
                             <img src={Insta} />
-                            <img src={Linkdin} />
-
+                            <a href="https://www.linkedin.com/in/chayanika-chakraborty-186478204"><img src={Linkdin} />
+</a>
+                            
                         </div>
 
                     </div>
@@ -42,15 +48,9 @@ const Intro = () => {
                 </div>
                 <div className='col-lg-6 col-md-12 col-sm-12'>
                     <div className='i-right'>
-                        <img style={{ top: '-14%' }}className=' girl img-fluid' src={Girl2} />
+                        <img className='girl img-fluid' src={my} />
                         
-                        <div>
-                            <Floatingdiv image={Crown} txt1='Web' txt2='Developer'></Floatingdiv>
-                        </div>
-                        <div style={{ top: '18rem', left: '0rem' }}>
-                            <Floatingdiv image={thumbup} txt1='Best Design'></Floatingdiv>
-
-                        </div>
+                        
 
 
 
@@ -58,9 +58,15 @@ const Intro = () => {
                     </div>
 
             </div>
-             <Contactform></Contactform>
+             <Services></Services>
+             <Projects></Projects>
+            <Contactform></Contactform>
 
+           
         </div>
+
+        
+        
     );
 };
 

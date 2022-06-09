@@ -5,7 +5,7 @@ import Intro from './Pages/Intro/Intro';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container" >
       <Navbar></Navbar>
       <Intro></Intro>
     </div>
