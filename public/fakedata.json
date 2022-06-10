@@ -1,0 +1,36 @@
+[
+    {
+        "_id":1,
+        "name":"Ware House Management",
+        "img":"https://i.ibb.co/WpfDmKB/IMG-20220610-104327.jpg",
+        "image": "https://i.ibb.co/VxzcPY9/IMG-20220610-104848.jpg",
+        "detail1":"Using React,react router as a front end",
+        "detail2":"Using node js, mongo db, cors, express as a backend",
+        "detail3":"Using fire base for email and password login and sign in",
+        "detail4":" As a social media login I am using Firebase Goggle Sign In ",
+        "detail5":"update product quantity by clicking button"
+        
+    },
+    {
+        "_id":2,
+        "name":"Independent Service Provider",
+        "img":"https://i.ibb.co/wrnw9g9/IMG-20220610-105829.jpg",
+        "image": "https://i.ibb.co/ZX0zMrq/IMG-20220610-110039.jpg",
+        "detail1":"Using React,react router as a front end",
+        "detail2":"Using react protected route. If use is not login, they didn't go to the protected route",
+        "detail3":"Useing fire base for email and password login and sign in",
+        "detail4":" As a social media login I am using Firebase Goggle Sign In ",
+        "detail5":"By clicking see more button, user can see more special information, if user is login"
+    },
+    {
+        "_id":3,
+        "name":"Product Analysis Website",
+        "img":"https://i.ibb.co/18ntBc7/IMG-20220610-110518.jpg",
+        "image": "https://i.ibb.co/n6Bc9k6/IMG-20220610-110813.jpg",
+        "detail1":"Using React,react js as a front end",
+        "detail2":"Using Re-chart in DashBoard",
+        "detail3":"By clicking Revier More button, you can see all the customer's review",
+        "detail4":" In about section you can see all the information of Company ",
+        "detail5":"For styling I am using raw css and Bootstrap"
+    }
+]

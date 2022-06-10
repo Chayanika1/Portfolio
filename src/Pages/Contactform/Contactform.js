@@ -3,7 +3,7 @@ import Mail from '../../Images/Email.png'
 
 const Contactform = () => {
   return (
-    <div>
+    <div id="contact">
       <div class="container">
       <h1 class="mb-5 text-center p-4" style={{color:'orangered'}}>Contact Us</h1>
         <div class="row">

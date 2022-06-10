@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Intro.css';
 import Github from '../../Images/github (1).png'
 import Insta from '../../Images/instagram.png';
@@ -16,6 +16,7 @@ import my from '../../Images/my-bg.png'
 import Ido from '../Ido/Ido';
 
 const Intro = () => {
+    
     return (
         <div className='container'>
 
